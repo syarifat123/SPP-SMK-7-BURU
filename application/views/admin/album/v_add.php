@@ -15,7 +15,7 @@
           <form action="<?php echo base_url().'admin/album/insert'?>" method="post" enctype="multipart/form-data">
             <div class="tile-body">
               <div class="form-group row">
-                <label class="control-label col-md-3">Juduls</label>
+                <label class="control-label col-md-3">Judul</label>
                 <div class="col-md-5">
                   <input class="form-control" type="text" id="album_title" name="album_title" value="" required>
                   <input class="form-control" type="hidden" id="id_album" name="id_album" value="<?= $kode_baru ?>" required>
